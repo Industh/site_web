@@ -7,10 +7,11 @@ ul {
     background-color: dodgerblue;
     height: 60px;
     position: static;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 li  {
-	border: 1px solid black;
     display: inline-block;
     background-color: dodgerblue;
     text-align: center;
@@ -20,10 +21,12 @@ li  {
 	width: 120px;
     margin: 0 -2px 0 -2px;
 	padding: 16px;
+    background: linear-gradient();
 }
 
-li:hover {
-	color: lightgray;
+    li:hover {
+        color: lightgray;
+        background-color: deepskyblue;
 }
 
 body {
