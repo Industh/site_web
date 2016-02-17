@@ -1,0 +1,20 @@
+ul {
+    border: 1px solid black;
+    margin: -8px -8px -8px;
+    display: block;
+    text-align: center;
+    background-color: dodgerblue;
+    height: 60px;
+    position: static;  
+}
+
+li {
+	border: 1px solid black;
+    display: inline-block;
+    background-color: dodgerblue;
+    text-align: right;
+    vertical-align: middle;
+    color: white;
+    height: 99%;
+    margin: 0 -2px 0 -2px;
+}
