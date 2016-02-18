@@ -2,6 +2,7 @@
 /*=================NAVIGATION BAR====================*/
 /*===================================================*/
 
+/* the big blue bar where there are all the tab */
 ul {
 	list-style-type: none;
 	overflow: hidden;
@@ -9,27 +10,40 @@ ul {
     display: block;
     background-color: #0066ff;
     height: 60px;
-    position: static;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
-li  {
+/* all the tab of the navigation bar */
+li {
     display: inline-block;
     background-color: #0066ff;
-    text-align: center;
-    vertical-align: middle;
     color: white;
-    height: 99%;
-	width: 120px;
+    height: 100%;
+	width: 150px;
     margin: 0 -2px 0 -2px;
-	padding: 16px;
+
 }
 
+    li a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        height: 100%;
+    }
+
+        li a:visited {
+            color: white;
+            background-color: #3385ff;
+        }
+
     li:hover {
-        color: lightgray;
+        color: white;
         background-color: #3385ff;
     }
+
+    
 
 /*===================================================*/
 /*======================BODY=========================*/
