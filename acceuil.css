@@ -3,7 +3,7 @@
 /*===================================================*/
 
 /* the big blue bar where there are all the tab */
-ul {
+#barre {
 	list-style-type: none;
 	overflow: hidden;
     margin: -8px -8px -8px;
@@ -15,7 +15,7 @@ ul {
 }
 
 /* all the tab of the navigation bar */
-li {
+.onglet {
     display: inline-block;
     background-color: #0066ff;
     color: white;
@@ -25,7 +25,7 @@ li {
 
 }
 
-    li a {
+    .onglet a {
         display: block;
         text-align: center;
         padding: 20px;
@@ -33,17 +33,57 @@ li {
         height: 100%;
     }
 
-        li a:visited {
+        .onglet a:visited {
             color: white;
             background-color: #3385ff;
         }
 
-    li:hover {
+    .onglet:hover {
         color: white;
         background-color: #3385ff;
     }
 
     
+/*===================================================*/
+/*=================="INFORMATION"====================*/
+/*===================================================*/
+
+#bloc_central {
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 700px;
+    display: flex;
+    position: relative;
+    top: 500px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.information {
+    border: 2px #0066ff outset;
+    box-shadow: 3px 3px 3px grey;
+    height: 70%;
+    width: 20%;
+}
+
+.icone {
+    position: relative;
+    top: 20px;
+   
+}
+
+.titre_information {
+    position: relative;
+    font-size: 36px;
+    top: 40px;
+}
+
+.texte_information {
+    position: relative;
+    font-size: 28px;
+    bottom: -50px;
+    padding: 5px;
+}
 
 /*===================================================*/
 /*======================BODY=========================*/
@@ -52,3 +92,29 @@ li {
 body {
 	height: 1200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
